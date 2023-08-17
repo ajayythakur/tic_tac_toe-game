@@ -27,4 +27,23 @@ margin: auto
   align-items: center;
 }
 
+@media (min-width:360px) and (max-width:500px){
+  .row{
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media (min-width:501px) and (max-width:700px){
+  .row{
+    width: 95%;
+    margin: auto;
+  }
+}
+@media (min-width:701px) and (max-width:900px){
+  .row{
+    width: 95%;
+    margin: auto;
+  }
+}
 
