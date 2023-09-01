@@ -25,12 +25,12 @@ const Board = () => {
         copyState[index] = x ? "X" : "O";
         setState(copyState);
         setX(!x);
-        if (copyState[index] == "X") {
+        if (copyState[index] === "X") {
             setBg("X");
             console.log(bg);
         }
-        if (copyState[index] == "O") {
-            setBg("O");
+        if (copyState[index] === "O") {
+            setBg("O"); 
             console.log(bg);
         }
     }

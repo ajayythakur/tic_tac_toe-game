@@ -9,7 +9,7 @@ const Square = (props) =>{
             {props.value}
             
             </div>
-    )
+    ) 
 }
 
 export default Square;
